@@ -1,0 +1,34 @@
+body {
+  font-family: Arial;
+  padding: 20px;
+}
+
+.question-card {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-bottom: 15px;
+}
+
+.option {
+  display: block;
+  padding: 8px;
+  margin: 5px 0;
+  border: 1px solid #ddd;
+  cursor: pointer;
+}
+
+.option.selected {
+  background: lightblue;
+}
+
+.correct {
+  border: 2px solid green;
+}
+
+.incorrect {
+  border: 2px solid red;
+}
+
+.correct-option {
+  background: lightgreen;
+}
