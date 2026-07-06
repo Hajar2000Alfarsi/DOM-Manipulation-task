@@ -1,0 +1,45 @@
+body {
+  font-family: Arial;
+  padding: 20px;
+}
+
+input {
+  display: flex;
+  flex-direction: column;
+  margin: 5px;
+  padding: 8px;
+}
+
+button {
+  padding: 6px 10px;
+  cursor: pointer;
+  margin: 5px;
+}
+
+/* Cart item */
+.cart-item {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-top: 10px;
+  align-items: center;
+}
+
+/* Buttons */
+.small-btn {
+  padding: 4px 8px;
+  margin: 0 3px;
+}
+
+.remove-btn {
+  background: red;
+  color: white;
+  border: none;
+}
+
+#totalDisplay {
+  margin-top: 20px;
+  font-weight: bold;
+  font-size: 18px;
+}
