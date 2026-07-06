@@ -1,0 +1,61 @@
+body {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  background: #f4f4f4;
+}
+
+/* ================= TAB BAR ================= */
+#tabBar {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 15px;
+  flex-wrap: wrap;
+}
+
+/* ================= TAB BUTTON ================= */
+.tab-btn {
+  background: white;
+  border: 1px solid #ccc;
+  padding: 8px 12px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  border-radius: 5px;
+}
+
+/* Active tab */
+.tab-btn.active {
+  background: #007bff;
+  color: white;
+}
+
+/* ================= BUTTONS INSIDE TAB ================= */
+.rename-btn,
+.delete-btn {
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+/* Delete button hover */
+.delete-btn:hover {
+  color: red;
+}
+
+/* ================= CONTENT AREA ================= */
+#contentArea {
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  min-height: 150px;
+  border: 1px solid #ccc;
+}
+
+/* ================= ADD TAB BUTTON ================= */
+#addTabBtn {
+  margin-bottom: 10px;
+  padding: 8px 12px;
+  cursor: pointer;
+}
